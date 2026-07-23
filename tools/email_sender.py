@@ -111,12 +111,3 @@ def send_email(recepient: str, dearClient: str, subject: str, message: str):
     except Exception as e:
         print(f"Failed to submit email: {e}")
         return f"Failed to submit the email because {e}"
-
-
-# if __name__ == "__main__":
-#     message = "This is a test message by Claude Daigan"
-#     sender = "miketacovic@gmail.com"
-#     recepient = "fayecamillebarja@gmail.com"
-#     recepientName = "Camille"
-#     subject = "Claude's Demo"
-#     send_email(sender, recepient, recepientName, subject, message)
