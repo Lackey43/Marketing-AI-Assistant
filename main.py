@@ -25,7 +25,7 @@ API_KEY = os.getenv("GOOGLE_API_KEY")
 # API_KEY = os.getenv("OPENROUTER_API_KEY")
 
 # model = ChatOpenRouter(model="nvidia/nemotron-3-ultra-550b-a55b:free", api_key=API_KEY)
-model = ChatGoogleGenerativeAI(model="gemini-3.1-flash-lite", api_key=API_KEY)
+model = ChatGoogleGenerativeAI(model="gemini-3.5-flash-lite", api_key=API_KEY)
 
 
 agent = create_deep_agent(

@@ -35,7 +35,7 @@ if "agent" not in st.session_state:
         )
 
     model = ChatGoogleGenerativeAI(
-        model="gemini-3.1-flash-lite", api_key=os.getenv("GOOGLE_API_KEY")
+        model="gemini-3.5-flash-lite", api_key=os.getenv("GOOGLE_API_KEY")
     )
 
     agent = create_deep_agent(
