@@ -59,4 +59,5 @@ htmlcov/
 logs/
 claude_daigan_resume.pdf
 langgraph.json
+pyproject.toml
 
