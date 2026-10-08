@@ -26,7 +26,7 @@ def send_email(recepient: str, dearClient: str, subject: str, message: str):
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>Claude's Demo</title>
+    <title>Outreach Studio</title>
 </head>
 
 <body style="margin:0; padding:0; background-color:#f4f4f4; font-family:Arial, sans-serif;">
@@ -41,7 +41,8 @@ def send_email(recepient: str, dearClient: str, subject: str, message: str):
                     <!-- Header -->
                     <tr>
                         <td style="background:#2563eb; padding:25px; text-align:center; color:white;">
-                            <h1 style="margin:0; font-size:28px;">Claude's Demo</h1>
+                            <h1 style="margin:0; font-size:28px;">Outreach Studio</h1>
+                            <p style="margin:6px 0 0; font-size:13px; opacity:0.85;">by Claude Daigan</p>
                         </td>
                     </tr>
 
@@ -73,7 +74,8 @@ def send_email(recepient: str, dearClient: str, subject: str, message: str):
 
                             <p style="font-size:16px;">
                                 Best regards,<br>
-                                <strong>Claude's Demo</strong>
+                                <strong>Claude Daigan</strong><br>
+                                Outreach Studio
                             </p>
                         </td>
                     </tr>
@@ -81,7 +83,7 @@ def send_email(recepient: str, dearClient: str, subject: str, message: str):
                     <!-- Footer -->
                     <tr>
                         <td style="background:#f8fafc; padding:20px; text-align:center; font-size:13px; color:#666;">
-                            © 2026 Claude's Demo. All rights reserved.
+                            © 2026 Outreach Studio, by Claude Daigan. All rights reserved.
                         </td>
                     </tr>
 

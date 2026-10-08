@@ -302,6 +302,7 @@
     }
     return (
       '<div class="empty">' +
+      '<div class="eyebrow">Outreach Studio &middot; by Claude Daigan</div>' +
       "<h2>Research a business, then write outreach that <em>sounds human</em>.</h2>" +
       "<p>Describe a company or paste its website. The agent researches it, finds a real angle, and drafts a personalized email you can review and send.</p>" +
       '<div class="chips">' + chips + "</div></div>"
